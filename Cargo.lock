@@ -5366,7 +5366,7 @@ dependencies = [
 [[package]]
 name = "tree-sitter-zig"
 version = "0.0.1"
-source = "git+https://github.com/maxxnino/tree-sitter-zig?branch=main#8d3224c3bd0890fe08358886ebf54fca2ed448a6"
+source = "git+https://github.com/maxxnino/tree-sitter-zig?branch=main#0d08703e4c3f426ec61695d7617415fff97029bd"
 dependencies = [
  "cc",
  "tree-sitter",
