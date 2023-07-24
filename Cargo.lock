@@ -2567,7 +2567,7 @@ dependencies = [
  "lapce-rpc",
  "lapce-xi-rope",
  "log 0.4.17",
- "lsp-types",
+ "lsp-types 0.94.0",
  "once_cell",
  "serde",
  "slotmap",
@@ -2654,7 +2654,7 @@ dependencies = [
  "lapce-rpc",
  "lapce-xi-rope",
  "log 0.4.17",
- "lsp-types",
+ "lsp-types 0.94.0",
  "notify",
  "once_cell",
  "parking_lot 0.11.2",
@@ -2703,7 +2703,7 @@ dependencies = [
  "lapce-xi-rope",
  "locale_config",
  "log 0.4.17",
- "lsp-types",
+ "lsp-types 0.94.0",
  "mio 0.6.23",
  "notify",
  "once_cell",
@@ -2735,7 +2735,7 @@ dependencies = [
  "indexmap",
  "lapce-xi-rope",
  "log 0.4.17",
- "lsp-types",
+ "lsp-types 0.94.0",
  "parking_lot 0.11.2",
  "serde",
  "serde_json",
@@ -2763,7 +2763,7 @@ dependencies = [
  "lapce-xi-rope",
  "log 0.4.17",
  "log-panics",
- "lsp-types",
+ "lsp-types 0.94.0",
  "once_cell",
  "open",
  "rayon",
@@ -2934,9 +2934,22 @@ dependencies = [
 
 [[package]]
 name = "lsp-types"
-version = "0.93.1"
+version = "0.93.2"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "a3bcfee315dde785ba887edb540b08765fd7df75a7d948844be6bf5712246734"
+checksum = "9be6e9c7e2d18f651974370d7aff703f9513e0df6e464fd795660edc77e6ca51"
+dependencies = [
+ "bitflags",
+ "serde",
+ "serde_json",
+ "serde_repr",
+ "url",
+]
+
+[[package]]
+name = "lsp-types"
+version = "0.94.0"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "0b63735a13a1f9cd4f4835223d828ed9c2e35c8c5e61837774399f558b6a1237"
 dependencies = [
  "bitflags",
  "serde",
@@ -3749,7 +3762,7 @@ name = "psp-types"
 version = "0.1.0"
 source = "git+https://github.com/lapce/psp-types#2513ff3c510377b2c2a003892d07bc91bec00c7a"
 dependencies = [
- "lsp-types",
+ "lsp-types 0.93.2",
  "serde",
  "serde_json",
 ]
