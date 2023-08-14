@@ -16,7 +16,7 @@ arc-swap = "1.5.1"
 strum = "0.24.0"
 strum_macros = "0.24"
 serde = "1.0"
-lsp-types = { version = "0.93", features = ["proposed"] }
+lsp-types = { version = "0.94", features = ["proposed"] }
 lapce-xi-rope = { version = "0.3.1", features = ["serde"] }
 lapce-rpc = { path = "../lapce-rpc" }
 
